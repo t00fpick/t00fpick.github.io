@@ -1,0 +1,199 @@
+*{ 
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+
+}
+
+html {
+	background-color: rgb(5, 5, 5);
+}
+
+#picscroll img {
+
+	position: absolute;
+	width: 55%;
+	height: 80%;
+	padding: 35px 0 0 40px;
+}
+
+#tester {
+
+	width: 100%;
+	height: 80%;
+	margin-top: 30px;
+}
+
+
+
+#container {
+
+	
+}
+
+#main-content {
+	position: absolute;
+	margin-top: 275px;
+	height: 310px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color: rgb(10, 10, 10);
+
+}
+
+#main-content img {
+	float: right;
+}
+
+#topmenu {
+	position: absolute;
+	right: 25%;
+	margin-top: 255px;
+	background-color: rgb(5, 5, 5);
+		
+}
+
+#topmenu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#topmenu ul li {
+	padding: 8px 15px 8px 15px;
+	list-style-type: none;
+	display: inline-block;
+	
+}
+
+#topmenu a {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	width: 100%;
+}
+
+#topmenu ul li:hover {
+
+
+}
+
+#topmenu a:hover {
+	color: red;
+	
+}
+
+#bottombar-top {
+	position: absolute;
+	top: 0;
+	display: inline-block;
+	height: 40px;
+	background-color: rgb(10, 10, 10);
+	width: 70%;
+}
+
+#bottombar-top h6 {
+	display: inline-block;
+	color: red;
+}
+
+#bottombar-top h5 {
+	display: inline-block;
+	color: white;
+}
+
+#bottombar-container {
+	position: absolute;
+	top: 526px;
+	left: 10%;
+	margin-right: 5%;
+	margin-left: 5%;
+	width: 70%;
+	background-color: rgb(10, 10, 10);
+	height: 80px;
+
+}
+
+#bottombar-bottom {
+	position: absolute;
+	bottom: 0;
+	
+	width: 120%;
+	height: 40px;
+	background-color: rgb(5, 5, 5);
+}
+
+#bottombar-bottom ul {
+	list-style-type: none;
+
+}
+
+#bottombar-bottom ul li{
+	display: inline-block;
+	
+}
+
+#namebox {
+	position: absolute;
+	top: 246px;
+	right: 10%;
+	background-color: rgb(10, 10, 10);
+	font-family: 'Droid Serif', serif;
+	color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+}
+
+#namebox h4 {
+	padding: 5px;
+	height: 25px;
+}
+
+
+
+
+
+
+.clearfix1 {
+	overflow: auto;
+}
+
+
+.clearfix:after {display: inline-block;}
+
+/* Hides from IE-mac \*/
+*html .clearfix {height: 1%}
+.clearfix {display: block;}
+/* Ennd hide from IE-mac */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

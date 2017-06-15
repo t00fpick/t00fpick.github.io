@@ -1,0 +1,51 @@
+<!DOCTYPE html>  
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="chores/stylesheet.css">
+
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>Chore Chart</title>
+</head>
+
+
+<body>
+
+	<div id="myDIV" class="header">
+		<h2>My Chore Chart</h2>
+		<input type="text" id="myInput" placeholder="Title...">
+		<span onclick="newElement()" class="addBtn">Add</span>
+	</div>
+
+	<ul id="myUL">
+		<li>Walk the dogs</li>
+		<li>Make your bed</li>
+		<li>Vaccuum your room</li>
+		<li>Help with dinner</li>
+	</ul>
+
+
+
+
+
+	<button onclick='goBack()'>Go back</button>
+
+
+</body>
+
+<script type="text/javascript" src="chores/java.js"></script>
+
+<script type="text/javascript">
+	function goBack() {
+		window.history.back();
+	}
+
+</script>
+
+
+
+</html>

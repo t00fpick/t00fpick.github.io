@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Buga-Bug</title>
+
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+
+	<div id="container">
+
+		<div id="main-content">
+
+			<img id="tester" src="http://all4desktop.com/data_images/original/4238051-background.jpg">
+			
+			<div id="picscroll">
+				<img class="mySlides" src="videos/cover.jpg">
+				<img class="mySlides" src="videos/swan.jpg">
+				<img class="mySlides" src="videos/discus.jpg">
+				<img class="mySlides" src="videos/nest.jpg">
+			</div>
+
+		</div>
+
+		<!-- Make nav menu responsive --> 
+
+
+
+		<div id="topmenu">
+			<ul>
+				<li><a href="pages/games.html">Games</a></li>
+				<li><a href="pages/chores.html">Chores</a></li>
+				<li><a href="pages/messages.html">Messages</a></li>
+				<li><a href="pages/gallery.html">Gallery</a></li>
+				<li><a href="#">Puppy Wish List</a></li>
+				
+			</ul>
+		</div>
+
+		<div id="bottombar-container">
+
+			
+			<div id="bottombar-top">
+				<i class="fa fa-home w3-text-red" ></i>
+				<h6><a href="index.html" >Home v2.0</a></h6>
+				<h5>//</h5>
+				<h6><a href"https://wwww.google.com" >Google</a></h6>
+				<h5>//</h5>
+				<h6><a href"https://www.youtube.com" >YouTube</a></h6>
+				<h5>//</h5>
+				<h5>Love you Bug</h5>
+			</div>
+
+			<div id="bottombar-bottom">
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</div>
+			
+		</div>
+
+		<div id="namebox">
+			<h4>Reagan Leigh</h4>
+		</div>
+
+
+
+
+	</div>
+
+
+
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+				x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="java.js"></script>
+
+</body>
+
+
+
+
+</html>
