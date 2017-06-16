@@ -150,7 +150,32 @@ html {
 	height: 25px;
 }
 
+#countdown {
+	position: absolute;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	padding-top: 35px;
+}
 
+#countdown p {
+	color: #39ff14;
+	font-family: 'Bangers', cursive;
+	font-size: 45px;
+}
+
+#countdown img {
+	width: 200px;
+	height: 200px;
+}
+
+#countdown-text {
+	
+}
+
+#countdown-pic {
+	
+}
 
 
 
