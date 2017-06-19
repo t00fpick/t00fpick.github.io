@@ -1,24 +1,5 @@
 
 
-$('.vidbtn').click(function () {
-	$('.cont-vid').toggle(500);
-
-})
-
-$('.musicbtn').click(function () {
-	$('.con-music').toggle(1000);
-
-})
-
-$('.keednbtn').click(function () {
-	$('.con-keedn').toggle(1000);
-	
-})
-
-$('.bestbtn').click(function () {
-	$('.con-best').toggle(1000);
-
-})
 
 function myFunction() {
 	var x = document.getElementById("myTopnav");
@@ -28,6 +9,8 @@ function myFunction() {
 		x.className = "topnav";
 	}
 }
+
+//side-nav-bar//
 
 $(document).ready(function(){
 
@@ -43,11 +26,16 @@ $(document).ready(function(){
 		});
 	});
 
-	$('html').click(function(){
-		$("div.dropdown-container").hide();
-	});
+
+myShow = w3.slideshow(".maincontent", 0);
+musicShow = w3.slideshow(".music", 0);
+
+
 
 });
+
+
+
 
 
 
