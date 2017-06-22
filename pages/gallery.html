@@ -8,12 +8,8 @@
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://www.w3schools.com/lib/w3.js"></script>
-
-
-	<link href="themes/6/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="themes/6/mcVideoPlugin.js" type="text/javascript"></script>
-    <script src="themes/6/js-image-slider.js" type="text/javascript"></script>
+	
+	
 
 	<title>Gallery</title>
 </head>
@@ -25,71 +21,49 @@
 	<div id="container">
 
 		<!-- COLAPSING MENU -->
-		<div id="test">
-			<p>//test links</p>
+		
+		<div id="menubar">
 			<ul>
-				<li><a class="dropdown-link" href="#">Reagans Videos</a>1</li>
-				<li><a class="dropdown-link" href="#">Music Videos</a>2</li>
-				<a class="dropdown-link" href="#">Pictures</a>
+				<li><a class="link" href="#" data-rel="picscroll">Pictures</a></li>
+				<li><a class="link" href="#" data-rel="reagcast">Reags Cast</a></li>
+				<li><a class="link" href="#" data-rel="giffers">GIFs</a></li>
+				<li><a class="link" href="#" data-rel="music">Music Videos</a></li>
 			</ul>
+			
 		</div>
 
-		<div id="dropdown-1" class="dropdown dropdown-processed">
-			<a class="dropdown-link " href="#">Reagans Videos</a>
-			<div class="dropdown-container" style="display: none;">
-				<ul>
-					<li>Item 1</li>
-					<li>Item 2</li>
-					<li>Item 3</li>
-				</ul>
+		<div class="content-container">
+
+			<div id="picscroll">
+				<img class="mySlides" src="../pictures/buddy.jpg">
+				<img class="mySlides" src="../pictures/discus.jpg">
+				<img class="mySlides" src="../pictures/nest.jpg">
+				<img class="mySlides" src="../pictures/axelot.jpg">
+				<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
 			</div>
-		</div>
-
-		<div id="dropdown-2" class="dropdown dropdown-processed">
-			<a class="dropdown-link" href="#">Music Videos</a>
-
-			<div class="dropdown-container" style="display: none;">
-
-				<div class="holder">
-					<button onclick="musicShow.previous()">Previous</button>
-					<button onclick="musicShow.next()">Next</button>
-
-					<img class="music" src="../pictures/discus.jpg" width="100%">
-					<img class="music" src="../pictures/buddy.jpg" width="100%">
-					<img class="music" src="../videos/keedn.gif" width="50%">
-					<video preload="none" data-image="../videos/stairs.mp4" controls="">
-						<source data-src="../videos/stairs.mp4" type="video/mp4">
-					</video>
-					
-				</div>
-				
-
-				
-
-
-			</div>
-
-		</div>
-
-		<div id="dropdown-3" class="dropdown dropdown-processed">
-			<a class="dropdown-link" href="#">Pictures</a>
-			<div class="dropdown-container" style="display: none;">
-
-				<div class="holder">
-
-					<button onclick="myShow.previous()">Previous</button>
-					<button onclick="myShow.next()">Next</button>
-
-					<img class="maincontent" src="../pictures/discus.jpg" width="100%">
-					<img class="maincontent" src="../pictures/buddy.jpg" width="100%">
-					<img class="maincontent" src="../videos/keedn.gif" width="50%">
-				</div>
-				
+			
+			<div id="reagcast">
 
 				
 			</div>
+
+			<div id="giffers">
+				
+			</div>
+
+			<div id="music" class="holder">
+				
+			</div>
+
+			
+
 		</div>
 
+		
+
+
+		
 		
 		
 
@@ -101,26 +75,14 @@
 	
 
 
-<!--
-						<div id="mySidenav" class="sidenav">
-							<a class="vidbtn" href="#" id="about">Videos</a>
-
-							<a href="#" id="blog">Pictures</a>
-							<a class="musicbtn" href="#" id="projects">Music</a>
-							<a class="keednbtn" id="kitten">Keedns</a>
-							<a class="bestbtn" id="best">Best</a>
-							<a href="../index.html" id="home">Home</a>
-
-						</div>
-
-					-->
-
-					
 
 
-					<script src="gallery/java.js"></script>
 
 
-				</body>
 
-				</html>
+	<script src="gallery/java.js"></script>
+
+
+</body>
+
+</html>
