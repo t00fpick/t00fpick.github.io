@@ -18,7 +18,7 @@ html {
 #menubar ul{
 	text-align: center;
 	padding-top: 25px;
-	background-color: red;
+	background-color: rgb(10, 10, 10);
 }
 
 #menubar li {
@@ -32,8 +32,9 @@ a:link.link {
 	line-height: 50px;
 	display: block;
 	text-align: center;
-	background: #383838;
+	background-color: rgb(20, 20, 20);
 	text-decoration: none;
+
 }
 
 #home {
@@ -41,7 +42,7 @@ a:link.link {
 	line-height: 50px;
 	display: block;
 	text-align: center;
-	background: #383838;
+	background-color: rgb(20, 20, 20);
 	text-decoration: none;
 }
 
@@ -131,6 +132,7 @@ button {
     margin-left: 10px;
     padding: 0;
     width: 45%;
+    color: white;
 }
 
 
@@ -139,7 +141,7 @@ button {
 	display: block;
     cursor:pointer;
     padding:8px;
-    background-color: rgb(110, 122, 140);   
+    background-color: rgb(20, 20, 20);   
 }
 
 #playlist li:hover{
