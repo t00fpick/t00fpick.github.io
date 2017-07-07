@@ -5,6 +5,10 @@
 	
 }
 
+html {
+	background-color: black;
+}
+
 #menubar {
 	margin: auto;
 	width: 100%;
@@ -24,13 +28,21 @@
 }
 
 a:link.link {
-	width: 150px;
+	width: 100px;
 	line-height: 50px;
 	display: block;
 	text-align: center;
 	background: #383838;
 	text-decoration: none;
+}
 
+#home {
+	width: 100px;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	background: #383838;
+	text-decoration: none;
 }
 
 button {
@@ -42,6 +54,7 @@ button {
 #picscroll {
 	margin: auto;
 	width: 80%;
+	border-style: solid;
 	
 }
 
@@ -50,17 +63,7 @@ button {
 	height: auto;
 }
 
-#reagcast {
-	width: 
-	background-color: blue;
-}
 
-#reagcast video{
-	display: block;
-	margin: 0 auto
-
-
-}
 
 #giffers {
 	width: 100%;
@@ -100,6 +103,73 @@ button {
 .mySlides {
 	
 }
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.buffs {
+	margin-top: 150px;
+
+}
+
+.buffs1 {
+	margin-top: 80px;
+
+}
+
+#playlist {
+    overflow: scroll;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    margin-left: 10px;
+    padding: 0;
+    width: 45%;
+}
+
+
+
+#playlist li{
+	display: block;
+    cursor:pointer;
+    padding:8px;
+    background-color: rgb(110, 122, 140);   
+}
+
+#playlist li:hover{
+    background-color: red;                        
+}
+
+#videoarea {
+    background-color: black;
+    width:50%;
+    height:55%;
+    margin:10px; 
+    padding: 15px;   
+    border:1px solid silver;
+    float: right;
+
+}
+
+#reagcast {
+	margin: auto;
+	margin-top: 25px;
+	width: 80%;
+	height: 600px;
+	background-color: black;
+	overflow: auto;
+}
+
+
+
+
+
 
 
 

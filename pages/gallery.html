@@ -24,6 +24,7 @@
 		
 		<div id="menubar">
 			<ul>
+				<li><a id="home" href="../index.html" >Home</a></li>
 				<li><a class="link" href="#" data-rel="picscroll">Pictures</a></li>
 				<li><a class="link" href="#" data-rel="reagcast">Reags Cast</a></li>
 				<li><a class="link" href="#" data-rel="giffers">GIFs</a></li>
@@ -37,6 +38,10 @@
 			<div id="picscroll">
 				<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
 				<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+				<img class="mySlides rotate90 buffs" src="../pictures/sick.jpg">
+				<img class="mySlides" src="../pictures/house.jpg">
+				<img class="mySlides rotate90 buffs1" src="../pictures/rainy.jpg">
+				<img class="mySlides" src="../pictures/cheese.jpg">
 				<img class="mySlides" src="../pictures/buddy.jpg">
 				<img class="mySlides" src="../pictures/discus.jpg">
 				<img class="mySlides" src="../pictures/nest.jpg">
@@ -45,35 +50,35 @@
 			</div>
 			
 			<div id="reagcast">
-			<video width="300" height="450" controls="">
-					<source src="../videos/boxing.mp4" type="video/mp4">
-					</video>
-
-				</div>
-
-				<div id="giffers">
-
-				</div>
-
-				<div id="music" class="holder">
-
-				</div>
+				
 
 
+				<video id="videoarea" controls="controls" poster="" src=""></video>
+
+				<ul id="playlist">
+					<li movieurl="../videos/boxing.mp4" moviesposter="">Boxing</li>
+					<li movieurl="gallery/galleryvideos/reagscast.mp4">News</li>          
+					<li movieurl="gallery/galleryvideos/workout.mp4">Workout</li>      
+					<li movieurl="gallery/galleryvideos/stairs.mp4">Boink</li>
+					
+
+				</ul>
+
+			</div>
+
+			<div id="giffers">
+
+			</div>
+
+			<div id="music" class="holder">
 
 			</div>
 
 
 
+		</div>
 
 
-
-
-
-
-
-
-		</div>	
 
 
 
@@ -83,9 +88,19 @@
 
 
 
-		<script src="gallery/java.js"></script>
+	</div>	
 
 
-	</body>
 
-	</html>
+
+
+
+
+
+
+	<script src="gallery/java.js"></script>
+
+
+</body>
+
+</html>
