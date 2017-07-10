@@ -129,13 +129,15 @@ button {
     position: absolute;
     left: 0;
     top: 10px;
-    margin-left: 10px;
+    margin-left: px;
     padding: 0;
     width: 45%;
     color: white;
 }
 
-
+#playlist ul {
+	background-color: rgb(20, 20, 20);
+}
 
 #playlist li{
 	display: block;
